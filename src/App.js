@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from './components/Header';
+import AddedFeature from './components/AddedFeature';
 import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
@@ -23,6 +24,11 @@ const App = () => {
         <div className="boxes">
           <div className="box">
             <Header />
+            <AddedFeatures />
+           </div>
+           <div className='box'>
+            <AdditionalFeatures />
+            <Total />
            </div>
         </div>
           
@@ -31,7 +37,7 @@ const App = () => {
 };
 
 export default App;
-  /* //     <AddedFeatures car={state.car} />
+  
     //   </div>
     //   <div className="box">
     //     <AdditionalFeatures additionalFeatures={state.additionalFeatures} />
