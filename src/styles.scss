@@ -28,14 +28,16 @@ body {
   ol {
     margin-left: 0;
     li {
-      align-items: center;
       display: flex;
-      justify-content: flex-start;
+      flex-direction: row;
+      
     }
   }
 }
 .button {
   background: hotpink;
+  display: flex;
+  flex-direction: column;
   border: 1px solid transparent;
   color: white;
   margin-right: 1em;
