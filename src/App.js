@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Header from './components/Header';
-import AddedFeature from './components/AddedFeature';
 import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
@@ -15,9 +14,7 @@ const App = () => {
   //   // dispatch an action here to remove an item
   // };
 
-  // const buyItem = item => {
-  //   // dipsatch an action here to add an item
-  // };
+  
 
   return (
         <>
@@ -31,16 +28,10 @@ const App = () => {
             <Total />
            </div>
         </div>
-          
-          </>
+        </>
    );
 };
 
 export default App;
   
-    //   </div>
-    //   <div className="box">
-    //     <AdditionalFeatures additionalFeatures={state.additionalFeatures} />
-    //     <Total car={state.car} additionalPrice={state.additionalPrice} />
-    //   </div>
-    // </div> */
+   
